@@ -29,8 +29,27 @@
   
   <style>
     .image-wrap img {
-        height: 300px;
+        height: 300px !important;;
     }
+
+    .content-wrap {
+        min-height: 400px !important;
+        display: flex !important;;
+        flex-direction: column !important;
+        height: calc(100% - 275px);
+    }
+
+    .content-wrap > .social-row {
+        margin-top:auto !important;
+    }
+
+    .card-wrap {
+        height: calc(100% - 30px) !important;
+        
+    }
+    /* .card-wrap:hover .content-wrap {
+        height: 400px !important;
+    } */
   </style>
   
   
